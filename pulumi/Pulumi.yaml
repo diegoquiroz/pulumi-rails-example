@@ -1,0 +1,10 @@
+name: myapp
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+description: Test Deploy rails ECS and Fargate
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
